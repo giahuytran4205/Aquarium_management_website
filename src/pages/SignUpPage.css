@@ -1,0 +1,68 @@
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-form input {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    line-height: 35px;
+    padding: 0px 20px;
+}
+
+.sign-up-form input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.sign-up-form button {
+    border-radius: 20px;
+    height: 30px;
+    padding: 0px;
+    padding-bottom: 2px;
+    background-color: #122053;
+    color: white;
+    font-weight: 400;
+}
+
+.sign-up-page a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.sign-up-page .policy-label {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    line-height: 20px;
+    font-size: x-small;
+}
+
+.sign-up-page input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0.05) inset !important;
+    color: white !important;
+    transition: background-color 9999s ease-in-out 0s;
+}
